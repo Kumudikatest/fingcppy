@@ -1,0 +1,100 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "595d89bb-63fd-478d-bc45-ec1fd82158e2": {
+        "id": "595d89bb-63fd-478d-bc45-ec1fd82158e2",
+        "parent": null,
+        "name": "fingcppy.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "fingcppy.py",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "python37",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "fingcppy"
+        },
+        "triggers": [
+          {
+            "resourceName": "scheduler-trigger",
+            "config": {
+              "type": "",
+              "schedulePattern": "1 1 1 1 1",
+              "jobId": "1",
+              "timezone": "UTC"
+            }
+          }
+        ]
+      },
+      "c801eee6-5a03-4288-92fe-7a1ef55d89b4": {
+        "id": "c801eee6-5a03-4288-92fe-7a1ef55d89b4",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "a8cde0d8-df20-49a8-ae1d-b8654182c21a": {
+        "id": "a8cde0d8-df20-49a8-ae1d-b8654182c21a",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      }
+    },
+    "openFiles": [
+      "595d89bb-63fd-478d-bc45-ec1fd82158e2"
+    ],
+    "currentFileId": "595d89bb-63fd-478d-bc45-ec1fd82158e2",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      },
+      "scheduler-trigger": {
+        "name": "scheduler-trigger",
+        "type": "scheduler-trigger",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "fingcppy",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east1",
+    "platform": "GCP",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1589186199437
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "fingcppy",
+      "url": "https://github.com/Kumudikatest/fingcppy"
+    }
+  }
+}
